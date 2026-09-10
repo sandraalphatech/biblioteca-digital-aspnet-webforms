@@ -37,7 +37,8 @@ Antes de executar o projeto, configure as connection strings no arquivo `Web.con
 
 ## Estrutura do projeto
 ```text
-BibliotecaDigital/
+EstoqueLivros/
+├── Properties/
 ├── css/
 ├── img/
 ├── js/
@@ -45,8 +46,9 @@ BibliotecaDigital/
 ├── Livros.aspx
 ├── Livros.aspx.cs
 ├── Livros.aspx.designer.cs
+├── EstoqueLivros.csproj
 │
-├── Web.config
 ├── Web.Debug.config
 ├── Web.Release.config
+├── Web.config
 └── packages.config
